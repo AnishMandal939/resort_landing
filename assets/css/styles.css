@@ -119,3 +119,17 @@ body::after{
   margin: auto;
   position: relative;
 }
+
+
+/*mega menu*/
+.dropdown-menu{
+  /*background-color: #1f2e4940;*/
+/*background: #24334e;*/
+background: #24334ed4;
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 3.5px );
+-webkit-backdrop-filter: blur( 3.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+color: ghostwhite;
+}

@@ -15,8 +15,9 @@
     <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
     <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/Testimonials.css">
-	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/Mega-Menu.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body >
@@ -43,16 +44,92 @@
         <nav class="navbar navbar-light navbar-expand-md ">
             <div class="container"><a class="navbar-brand d-flex align-items-center text-warning " href="#">Resort</a><button data-bs-toggle="collapse" class="navbar-toggler text-primary border-0" data-bs-target="#navcol-16"><span><i class="fas fa-bars fs-4"></i></span></button>
                 <div class="collapse navbar-collapse" id="navcol-16">
-                    <ul class="navbar-nav mx-auto">
+                    <!-- <ul class="navbar-nav mx-auto">
                         <li class="nav-item"><a class="nav-link active text-white" href="#">Home</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="#">Services</a></li>
                         <li class="nav-item"><a class="nav-link text-white" href="#">About</a></li>
                         <li class="nav-item me-2"><a class="nav-link text-white" href="#">Places</a></li>
-                    </ul>
-                    <div><a class="btn text-white" role="button">Login</a><a class="btn mx-1 text-white" role="button" href="#">Signup</a></div>
+                    </ul> -->
+
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 float-md-right"></ul>
+            <ul class="navbar-nav navbar-light">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                
+                <!--  Rooms -->
+                <li class="nav-item dropdown megamenu-li dmenu"><a class="nav-link dropdown-toggle" href id="dropdown01" data-toggle="dropdown"> Rooms</a>
+                    <div class="dropdown-menu megamenu sm-menu border-top">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Presidential Suite</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Presidential Suite 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Swiss Cottage</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Swiss Cottage</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-house-user"></i>  Swiss Cottage</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Villa Delux</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Villa Delux 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-4">
+                                <h6>Luxury Tent Room</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Luxury Tent 1</a>
+                            </div>
+                        </div>
+                        <!-- 2nd row -->
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Presidential Suite</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Presidential Suite 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Swiss Cottage</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i>  Swiss Cottage</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Villa Delux</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i>Villa Delux 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-4">
+                                <h6>Luxury Tent Room</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Luxury Tent 1</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- rooms  end -->
+
+                <!--  events and packages-->
+                <li class="nav-item dropdown megamenu-li dmenu"><a class="nav-link dropdown-toggle" href id="dropdown01" data-toggle="dropdown"> Events &amp; Packages</a>
+                    <div class="dropdown-menu megamenu sm-menu border-top">
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Packages &amp; Promotions</h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Packages &amp; Promotions 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Picnics </h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i>  Picnic 1 </a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 border-right mb-4">
+                                <h6>Ceremonies </h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Ceremonies 1</a>
+                            </div>
+                            <div class="col-sm-6 col-lg-3 mb-4">
+                                <h6>Corporate Meetings  </h6><a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Corporate Meetings 1</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </li>
+                <!-- events and packages end -->
+                <!-- locations -->
+                <li class="nav-item dmenu dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                        Locations
+                    </a>
+                    <div class="dropdown-menu sm-menu"><a class="dropdown-item" href="#">How to reach here</a><a class="dropdown-item" href="#">Things to Experience</a><a class="dropdown-item" href="#">The Surroundings</a></div>
+                </li>
+                    <!-- locaions end -->
+            </ul>
+                    <div>
+                        <a class="btn text-white" role="button" data-bs-toggle="modal" data-bs-target="#login">Login</a><a class="btn text-white" role="button" data-bs-toggle="modal" data-bs-target="#signup">Signup</a>
+                        <!-- <a class="btn mx-1 text-white" role="button" href="#" data-bs-toggle="modal" data-bs-target="#signup">Signup</a> -->
+                    </div>
                 </div>
             </div>
         </nav>
+
+      
     </header>
     <section id="carousel" class="mtc120px">
         <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
@@ -264,6 +341,54 @@
             </div>
         </div>
     </section>
+
+
+
+        <!-- Login Modal -->
+        <div class="modal fade" id="login" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase text-primary" id="exampleModalLabel">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="row">
+                  <div class="col">
+                    <input type="email" class="form-control" placeholder="email" aria-label="email">
+                  </div>
+                  <div class="col">
+                    <input type="password" class="form-control" placeholder="password" aria-label="password">
+                  </div>
+                </div>
+
+                
+              </div>
+              <div class="modal-footer">
+
+                <button type="button" class="btn btn-primary">Login</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- SignUp Modal -->
+        <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase text-primary" id="exampleModalLabel">Sign Up</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                sign up
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-primary">Sign Up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
     <footer class="page-footer" style="background-color: #1a263c !important; background-image: url('assets/img/bg-damask-gold.png');">
         <div class="container">
             <div class="row">
@@ -333,22 +458,24 @@
     </footer>
 	
 	<script>
-	var myNav = document.getElementById("nag");
+	       var myNav = document.getElementById("nag");
 
-window.onscroll = function() {
-  "use strict";
-  if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
-    myNav.classList.add("scroll");
-  } else {
-    myNav.classList.remove("scroll");
-  }
-};
+            window.onscroll = function() {
+              "use strict";
+              if (document.body.scrollTop >= 100 || document.documentElement.scrollTop >= 100) {
+                myNav.classList.add("scroll");
+              } else {
+                myNav.classList.remove("scroll");
+              }
+            };
 	</script>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 
-   
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script type="text/javascript" src="assets/js/Mega-Menu.js"></script>
 </body>
 
 </html>
