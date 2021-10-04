@@ -1,0 +1,138 @@
+ul.mainwidget {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px 15px;
+    /*background: #FFF;*/
+    background: #15151578;
+    /*border: 1px solid #eee;*/
+    border: 1px solid #9f999959;
+    border-radius: 8px;
+}
+ul, ol {
+    font-size: 13px;
+    line-height: 1.62;
+    margin-bottom: 17px;
+    list-style-position: outside;
+}
+
+ul.mainwidget li {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #666;
+    font-size: 18px !important;
+    line-height: 18px;
+}
+ul.mainwidget li {
+    margin-top: 0px;
+    padding: 0 5px !important;
+}
+
+ul.mainwidget h3.widget-title {
+    margin: 0;
+        margin-bottom: 0px;
+    color: #018741;
+    font-size: 24px;
+    padding: 15px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #E6E5E5;
+    padding-left: 0;
+}
+
+.widget_tli-latestnews .singlep {
+    padding-bottom: 17px;
+    margin-bottom: 17px;
+    border-bottom: 1px dotted #e1e3e3;
+}
+
+.widget_tli-latestnews img {
+    float: left;
+    max-width: 80px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+}
+.widget_tli-latestnews h6 {
+    font-size: 16px !important;
+    margin-bottom: 0px;
+    line-height: 1.2;
+    font-weight: 500 !important;
+
+}
+
+.widget_tli-latestnews h6 a {
+    display: block;
+    font-size: 18px;
+    /*color: #2F2C2C;*/
+     color: green;
+}
+
+.widget_tli-latestnews p {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+
+/*left section css*/
+.right{
+    background: rgba( 0, 0, 0, 0.25 );
+/*box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.eight, .row .eight {
+    /*width: 66.66667%;*/
+}
+.maincontent {
+    padding: 0 60px 0 10px;
+}
+
+.post {
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.post p {
+
+    color: #464646;
+
+}
+.post p {
+
+    line-height: 1.62;
+    font-size: 18px;
+
+}
+
+.wp-block-image {
+    margin: 0 0 1em;
+
+}
+
+.wp-block-image > img{
+    width: 100%;
+/*height: 400px;*/
+object-fit: contain;
+}
+
+.wp-block-image figcaption {
+    font-family: "playfair display", Georgia, serif;
+    margin-top: -27px ;
+    color: #6f6f6f;
+    font-size: 16px;
+    text-align: center;
+}
+
+ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.62;
+    direction: ltr;
+    color: #464646;
+}
